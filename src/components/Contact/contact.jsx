@@ -1,5 +1,5 @@
-import css from './Contact.module.css';
 import { IoPersonSharp, IoCallSharp } from 'react-icons/io5';
+import css from './Contact.module.css';
 
 const Contact = ({ id, name, number, onDelete }) => {
   return (
