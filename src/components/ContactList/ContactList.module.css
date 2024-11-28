@@ -1,5 +1,4 @@
-/* Стили для списка контактов */
-.contactList {
+.list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -45,15 +44,4 @@
 
 .contactItem button:hover {
   background-color: #e03e3e;
-}
-
-@media (max-width: 600px) {
-  .contactItem {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .contactInfo p {
-    font-size: 14px;
-  }
 }

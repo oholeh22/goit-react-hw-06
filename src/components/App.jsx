@@ -2,6 +2,7 @@ import './App.css'
 import ContactForm from './ContactForm/contactForm';
 import SearchBox from './SearchBox/SearchBox'
 import ContactList from './ContactList/ContactList'
+import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
         <ContactForm />
         <SearchBox />
         <ContactList />
+        <ErrorBoundary />
       </div>
     );
   }
