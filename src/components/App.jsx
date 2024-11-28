@@ -2,7 +2,7 @@ import './App.css'
 import ContactForm from './ContactForm/contactForm';
 import ContactList from './ContactList/contactList';
 import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
-import SearchBox from './SearchBox/SearchBox'
+import SearchBox from './SearchBox/searchBox'
 
 function App() {
     return (
