@@ -1,6 +1,6 @@
 import './App.css'
 import ContactForm from './ContactForm/contactForm';
-import ContactList from './ContactList/ContactList.jsx'
+import ContactList from './ContactList/contactList';
 import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
 import SearchBox from './SearchBox/SearchBox'
 
