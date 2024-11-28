@@ -1,16 +1,16 @@
 import './App.css'
 import ContactForm from './ContactForm/contactForm';
-import SearchBox from './SearchBox/SearchBox.jsx'
 import ContactList from './ContactList/ContactList'
 import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
+import SearchBox from './SearchBox/SearchBox'
 
 function App() {
     return (
       <div className="container">
         <h1>Phonebook</h1>
         <ContactForm />
-        <SearchBox />
         <ContactList />
+        <SearchBox />
         <ErrorBoundary />
       </div>
     );
