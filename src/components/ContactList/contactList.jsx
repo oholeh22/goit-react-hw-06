@@ -2,7 +2,7 @@ import { createSelector } from 'reselect';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteContact,  selectContacts } from '../../redux/contactsSlice';
 import { selectFilter } from '../../redux/filtersSlice';
-import Contact from '../Contact/Contact';
+import Contact from '../Contact/contact';
 import css from './ContactList.module.css';
 
 const selectFilteredContacts = createSelector(
